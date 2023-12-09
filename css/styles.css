@@ -52,7 +52,10 @@ ol {
   display: flex;
   align-items: center;
 }
-.navigacion,
+.navigacion {
+  display: flex;
+  align-items: center;
+}
 .list-nav {
   display: flex;
   align-items: center;
@@ -61,10 +64,6 @@ ol {
   display: block;
   padding: 24px;
 }
-/* .list-nav {
-  gap: 40px;
-  padding: 24px 0;
-} */
 .list-contacts {
   display: flex;
   gap: 40px;
@@ -110,10 +109,9 @@ ol {
 
 .main-page {
   background-color: #2e2f42;
-}
-.box-main {
   padding: 188px 0;
 }
+
 .main-title {
   width: 496px;
   color: white;
@@ -123,7 +121,7 @@ ol {
   text-align: center;
   display: block;
   margin: auto;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
 }
 
 .button {
@@ -149,18 +147,17 @@ ol {
 .benefits {
   color: #2e2f42;
 }
+.hidden {
+  display: none;
+}
 .list-ben {
   display: flex;
-  flex-wrap: wrap;
-  margin: auto;
-}
-.item-ben:first-child {
-  margin-left: 0;
+  align-items: center;
+  gap: 24px;
 }
 .item-ben {
-  max-width: 264px;
   background-color: #fff;
-  margin-left: 24px;
+  width: calc((100 - 72px) / 4);
 }
 .title-ben {
   margin-bottom: 8px;
@@ -195,14 +192,14 @@ ol {
   gap: 24px;
 }
 .list-item {
+  width: calc((100 - 72px) / 4);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
-  overflow: hidden;
+  background-color: #ffffff;
 }
 .box-text {
-  background-color: #ffffff;
   text-align: center;
   padding: 32px 0;
 }
@@ -226,7 +223,10 @@ ol {
   color: #2e2f42;
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 48px 24px;
+}
+.item-port {
+  width: calc((100 - 48px) / 3);
 }
 .box-text-port {
   padding: 32px 16px;
@@ -257,19 +257,14 @@ ol {
 
 /* #region ================================footer */
 
-.footer-logo,
-.footer-text {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
-.box-footer {
-  margin-top: 140px;
-  margin-bottom: 100px;
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer {
   color: #f4f4fd;
   background-color: #2e2f42;
+  padding: 100px;
 }
 .footer-logo {
   font-size: 18px;
@@ -283,7 +278,6 @@ ol {
   color: #4d5ae5;
 }
 .footer-text {
-  margin-top: 17.5px;
   width: 264px;
   line-height: 24px;
   letter-spacing: 0.32px;
