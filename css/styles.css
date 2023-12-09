@@ -67,6 +67,7 @@ ol {
 }
 .list-contacts {
   display: flex;
+  gap: 40px;
 }
 .address {
   display: block;
@@ -149,7 +150,7 @@ ol {
 .benefits {
   color: #2e2f42;
 }
-.hidden {
+.visibility-hidden {
   visibility: hidden;
 }
 .list-ben {
@@ -242,7 +243,7 @@ ol {
   line-height: 40px;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .title-list {
   font-size: 20px;
