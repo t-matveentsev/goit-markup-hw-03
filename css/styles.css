@@ -150,9 +150,6 @@ ol {
 .benefits {
   color: #2e2f42;
 }
-.visibility-hidden {
-  visibility: hidden;
-}
 .list-ben {
   display: flex;
   align-items: center;
