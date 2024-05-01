@@ -52,7 +52,7 @@ ol {
   display: flex;
   align-items: center;
 }
-.navigacion {
+.navigation {
   display: flex;
   align-items: center;
 }
@@ -78,7 +78,6 @@ ol {
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.54px;
-  font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   margin-right: 76px;
 }
@@ -129,7 +128,7 @@ ol {
   color: white;
   background-color: #4d5ae5;
   cursor: pointer;
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.64px;
@@ -283,7 +282,6 @@ ol {
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.54px;
-  font-family: "Raleway", sans-serif;
   text-transform: uppercase;
 }
 .span-footer {
